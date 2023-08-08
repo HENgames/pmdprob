@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="pmdprob test ruleset" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0">
+    <description>ruleset to show unmatched braces problem</description>
+    <rule ref="category/java/errorprone.xml/AvoidDuplicateLiterals">
+        <properties>
+            <property name="maxDuplicateLiterals" value="2" />
+        </properties>
+    </rule>
+</ruleset>
